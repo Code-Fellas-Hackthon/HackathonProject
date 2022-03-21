@@ -1,0 +1,269 @@
+.ijseLogo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5vh;
+    margin: auto;
+    animation: fadeIn 4s;
+}
+
+.insName {
+    position: absolute;
+    left: 28vw;
+    top: 25vh;
+    right: 0;
+    bottom: 0;
+    font-size: 40px;
+    animation: fadeIns 8s;
+}
+
+/*@keyframes fadeIn {*/
+/*    from{*/
+/*        opacity: 0;*/
+/*    }*/
+
+/*    to{*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
+
+
+/*@keyframes fadeIns {*/
+/*    from{*/
+/*        opacity: 0;*/
+/*    }*/
+
+/*    to{*/
+/*        opacity: 1;*/
+
+/*    }*/
+/*}*/
+
+#imgSec{
+    display: flex;
+    justify-content: space-between;
+    top: 65vh;
+    left: 61vh;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    animation: fadeInss 9s;
+
+}
+
+/*@keyframes fadeInss {*/
+/*    from{*/
+/*        opacity: 0;*/
+/*    }*/
+
+/*    to{*/
+/*        opacity: 1;*/
+
+/*    }*/
+/*}*/
+
+#imgSec > img{
+    width: 10vw;
+    height: 10vw;
+}
+
+#btnGoSecond{
+    position: absolute;
+    bottom: 46vh;
+    right: 98vh;
+    width: 10vw;
+    font-size: 20px;
+    animation: fadeInsss 9s;
+
+}
+
+/*@keyframes fadeInsss {*/
+/*    from{*/
+/*        opacity: 0;*/
+/*    }*/
+
+/*    to{*/
+/*        opacity: 1;*/
+
+/*    }*/
+/*}*/
+
+#topic{
+    font-family: ubuntu;
+    color: red;
+    font-weight: bold;
+    font-size: 64px;
+    left: 37vw;
+    position: absolute;
+}
+#topic1{
+    font-family: ubuntu;
+    color: red;
+    font-size: 30px;
+    left: 42vw;
+    top: 12vh;
+    position: absolute;
+}
+
+#gif{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    left: 36vh;
+    top: 32vh;
+}
+
+#img{
+    position: absolute;
+    width: 80vh;
+    height: 80vh;
+    right: 67vh;
+    bottom: 0vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #2f2f2f;
+    width: calc(100% - 33px);
+}
+
+canvas {
+    position: absolute;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.result-container > div {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 5px 0;
+    color: white;
+    text-transform: capitalize;
+}
+#age {
+    background: #1e94be;
+}
+#emotion {
+    background: #8a1025;
+}
+#gender {
+    background: #62d8a5;
+}
+video {
+    width: 100%;
+
+}
+header {
+    background: white;
+    color: red;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#btnBackHome{
+    position: absolute;
+    bottom: 6vh;
+    left: 6vh;
+    width: 8vw;
+    font-size: 18px;
+}
+
+#btnSaveDetail{
+    position: absolute;
+    bottom: 6vh;
+    right: 6vh;
+    width: 10vw;
+    font-size: 18px;
+}
+
+#btnBackHomeSecondPage{
+    position: absolute;
+    bottom: 6vh;
+    left: 6vh;
+    width: 8vw;
+    font-size: 18px;
+}
+
+
+#div1{
+    top: 10vh;
+    left: 20vw;
+    position: absolute;
+    width: 4px;
+    height: 65vh;
+    background-color: #7f8c8d;
+}
+
+#h3{
+    position: absolute;
+    font-size: 19px;
+    top: -7vh;
+    left: 5vw;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+
+#loginSec{
+    position: absolute;
+    width: 31vh;
+    height: 65vh;
+    top: 35vh;
+    left: 3vh;
+
+}
+
+#textField{
+    top: 10vh;
+}
+
+#divLables {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#tableSection {
+    position: absolute;
+    width: 1000px;
+    top: 45px;
+    right: 100px;
+}
+
+#adminDashTitle {
+    font-family: UBuntu;
+    font-size: 35px;
+    font-weight: bold;
+    color: #191261;
+}
+
+#dateInput {
+    position: relative;
+    top: 120px;
+    width: 200px;
+}
+#background {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 420px;
+    height: 710px;
+    background-image: linear-gradient(to right top, #131e6a, #095395, #3e88b6, #80bbd2, #cbeef3);
+    border-radius: 14px;
+
+}
